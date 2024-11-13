@@ -1,0 +1,34 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Expense Serv",
+        "description": "testing.",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/expenses": {
+            "get": {
+                "tags": [
+                    "Expenses"
+                ],
+                "summary": "Menampilkan Data",
+                "description": "Menampilkan data yang telah dibuat",
+                "operationId": "92110a809ee34b535deb5f0b0a264f92",
+                "responses": {
+                    "200": {
+                        "description": "Expense data retrieved successfully"
+                    },
+                    "404": {
+                        "description": "Expense not found"
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Expenses",
+            "description": "Expenses"
+        }
+    ]
+}
